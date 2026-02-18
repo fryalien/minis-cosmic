@@ -1,0 +1,11 @@
+[
+    Home,
+    Documents,
+    Downloads,
+    Music,
+    Pictures,
+    Videos,
+    Path("/home/y/Public"),
+    Path("/home/y/.local/share/icons"),
+    Path("/home/y/BIGDATA/DOWNLOADS/desk-icons"),
+]

@@ -1,0 +1,4 @@
+[Icon Theme]
+Name=MacOS-Green
+Comment=Green and Black macOS cursors.
+Inherits="hicolor"
