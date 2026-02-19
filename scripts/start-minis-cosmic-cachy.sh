@@ -20,7 +20,7 @@ echo "##### INSTALL CACHY #####"
 
 echo "##### SETUP PAM #####"
 
-./scripts/cosmic-pam-setup.sh
+./scripts/minis-cosmic/cosmic-pam-setup.sh
 
 ######################################################################################
 
