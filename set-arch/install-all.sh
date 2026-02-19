@@ -4,61 +4,61 @@
 
 echo "##### SET SUDO 3 hrs #####"
 
-./scripts/install-all/set-sudo-timeout.sh
+./scripts/set-arch/set-sudo-timeout.sh
 
 ######################################################################################
 
 echo "##### STOP ARCH PING #####"
 
-./scripts/install-all/stop-arch-ping.sh
+./scripts/set-arch/stop-arch-ping.sh
 
 ######################################################################################
 
 echo "##### INSTALL DISTRO APPS #####"
 
-./scripts/install-all/pacman-apps.sh
+./scripts/set-arch/pacman-apps.sh
 
 ######################################################################################
 
 echo "##### SETUP FISH #####"
 
-./scripts/install-all/set-fish-config.sh
+./scripts/set-arch/set-fish-config.sh
 
 ######################################################################################
 
 echo "##### SETUP FASTFETCH #####"
 
-./scripts/install-all/set-fastfetch.sh
+./scripts/set-arch/set-fastfetch.sh
 
 ######################################################################################
 
 echo "##### SETUP MICRO EDITOR #####"
 
-./scripts/install-all/set-micro-theme.sh
+./scripts/set-arch/set-micro-theme.sh
 
 ######################################################################################
 
 echo "##### SETUP GHOSTTY #####"
 
-./scripts/install-all/set-ghostty.sh
+./scripts/set-arch/set-ghostty.sh
 
 ######################################################################################
 
 echo "##### SETUP FIREWALL #####"
 
-./scripts/install-all/set-firewall.sh
+./scripts/set-arch/set-firewall.sh
 
 ######################################################################################
 
 echo "##### SETUP NTP #####"
 
-./scripts/install-all/set-new-ntp.sh
+./scripts/set-arch/set-new-ntp.sh
 
 ######################################################################################
 
 echo "##### SETUP SSH #####"
 
-./scripts/install-all/set-ssh.sh
+./scripts/set-arch/set-ssh.sh
 
 ######################################################################################
 

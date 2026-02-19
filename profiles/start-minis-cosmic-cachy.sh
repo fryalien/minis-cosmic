@@ -8,35 +8,35 @@ date
 
 echo "##### INSTALL ALL #####"
 
-./scripts/install-all/install-all.sh
+./scripts/sset-arch/install-all.sh
 
 ######################################################################################
 
 echo "##### INSTALL CACHY #####"
 
-./scripts/minis-cosmic/eos-apps.sh
+./scripts/distro-apps/cachy-apps.sh
 
 ######################################################################################
 
 echo "##### SETUP PAM #####"
 
-./scripts/cosmic-pam-setup.sh
+./scripts/distro-apps/cosmic-pam-setup.sh
 
 ######################################################################################
 
 echo "##### INSTALL FLATPAK #####"
 
-./scripts/minis-flatpak/flatpak-apps.sh
+./scripts/flatpak/flatpak-apps.sh
 
 echo "##### COPY FLATPAK CONFIG #####"
 
-./scripts/minis-flatpak/flatpak-config.sh
+./scripts/flatpak/flatpak-config.sh
 
 ######################################################################################
 
 echo "##### SETUP COSMIC #####"
 
-./scripts/minis-cosmic/restore-cosmic.sh
+./scripts/cosmic-config/restore-cosmic.sh
 
 ######################################################################################
 

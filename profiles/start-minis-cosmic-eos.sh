@@ -8,19 +8,19 @@ date
 
 echo "##### INSTALL ALL #####"
 
-./scripts/install-all/install-all.sh
+./scripts/arch-all/install-all.sh
 
 ######################################################################################
 
 echo "##### INSTALL CACHY #####"
 
-./scripts/minis-cosmic/cachy-apps.sh
+./scripts/minis-cosmic/eos-apps.sh
 
 ######################################################################################
 
 echo "##### SETUP PAM #####"
 
-./scripts/minis-cosmic/cosmic-pam-setup.sh
+./scripts/cosmic-pam-setup.sh
 
 ######################################################################################
 
