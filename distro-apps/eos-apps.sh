@@ -25,3 +25,5 @@ $aur catppuccin-cursors-mocha
 $aur megasync-bin
 $aur freefilesync-bin
 $aur paru
+
+echo "All done."

@@ -8,3 +8,5 @@ sudo tee -a /etc/pam.d/login <<'EOF'
 auth optional pam_gnome_keyring.so
 session optional pam_gnome_keyring.so auto_start
 EOF
+
+echo "All done."

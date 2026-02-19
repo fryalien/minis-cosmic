@@ -27,4 +27,6 @@ $in xdg-desktop-portal-gtk
 
 # needed fot github desktop
 sudo pacman -S gnome-keyring
-systemctl --user enable --now gnome-keyring-daemon.service   
+systemctl --user enable --now gnome-keyring-daemon.service
+
+echo "All done."
