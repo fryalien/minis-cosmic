@@ -8,13 +8,13 @@ date
 
 echo "##### INSTALL ALL #####"
 
-./scripts/arch-all/install-all.sh
+./set-arch/install-all.sh
 
 ######################################################################################
 
-echo "##### INSTALL CACHY #####"
+echo "##### INSTALL EOS #####"
 
-./scripts/minis-cosmic/eos-apps.sh
+./distro-apps/eos-apps.sh
 
 ######################################################################################
 
@@ -26,11 +26,11 @@ echo "##### SETUP PAM #####"
 
 echo "##### INSTALL FLATPAK #####"
 
-./scripts/minis-flatpak/flatpak-apps.sh
+./flatpak/flatpak-apps.sh
 
 echo "##### COPY FLATPAK CONFIG #####"
 
-./scripts/minis-flatpak/flatpak-config.sh
+./flatpak/flatpak-config.sh
 
 ######################################################################################
 

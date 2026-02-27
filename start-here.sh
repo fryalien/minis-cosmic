@@ -2,8 +2,8 @@
 set -e
 
 # Define log file
-log="./install-$(date +%Y-%m-%d_%H:%M).log"
-errorlog="./error-$(date +%Y-%m-%d_%H:%M).log"
+log="./install-$(date +%Y-%m-%d_%H-%M).log"
+errorlog="./error-$(date +%Y-%m-%d_%H-%M).log"
 
 # Redirect stdout and stderr to tee (both screen and file)
 exec > >(tee -a "$log") 2> "$errorlog"
@@ -29,15 +29,15 @@ case "$CHOICE" in
         ;;
     3)
         echo "Running minis-cosmic-cachy..."
-        ./scripts/start-minis-cosmic-cachy.sh
+        ./profiles/start-minis-cosmic-cachy.sh
         ;;
     4)
         echo "Running minis-cosmic-eos..."
-        ./scripts/start-minis-cosmic-eos.sh
+        ./profiles/start-minis-cosmic-eos.sh
         ;;
     5)
         echo "Running minis-xfce..."
-        ./scripts/start-minis-xfce.sh
+        ./profiles/start-minis-xfce.sh
         ;;
     *)
         echo "Invalid choice. Exiting."

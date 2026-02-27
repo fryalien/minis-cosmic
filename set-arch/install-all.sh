@@ -4,61 +4,61 @@
 
 echo "##### SET SUDO 3 hrs #####"
 
-./scripts/set-arch/set-sudo-timeout.sh
+./set-arch/set-sudo-timeout.sh
 
 ######################################################################################
 
 echo "##### STOP ARCH PING #####"
 
-./scripts/set-arch/stop-arch-ping.sh
+./set-arch/stop-arch-ping.sh
 
 ######################################################################################
 
 echo "##### INSTALL DISTRO APPS #####"
 
-./scripts/set-arch/pacman-apps.sh
+./set-arch/pacman-apps.sh
 
 ######################################################################################
 
 echo "##### SETUP FISH #####"
 
-./scripts/set-arch/set-fish-config.sh
+./scripts/set-fish.sh
 
 ######################################################################################
 
 echo "##### SETUP FASTFETCH #####"
 
-./scripts/set-arch/set-fastfetch.sh
+./scripts/set-fastfetch.sh
 
 ######################################################################################
 
 echo "##### SETUP MICRO EDITOR #####"
 
-./scripts/set-arch/set-micro-theme.sh
+./scripts/set-micro-theme.sh
 
 ######################################################################################
 
 echo "##### SETUP GHOSTTY #####"
 
-./scripts/set-arch/set-ghostty.sh
+./scripts/set-ghostty.sh
 
 ######################################################################################
 
 echo "##### SETUP FIREWALL #####"
 
-./scripts/set-arch/set-firewall.sh
+./scripts/set-firewall.sh
 
 ######################################################################################
 
 echo "##### SETUP NTP #####"
 
-./scripts/set-arch/set-new-ntp.sh
+./set-arch/set-new-ntp.sh
 
 ######################################################################################
 
 echo "##### SETUP SSH #####"
 
-./scripts/set-arch/set-ssh.sh
+./scripts/set-ssh.sh
 
 ######################################################################################
 
