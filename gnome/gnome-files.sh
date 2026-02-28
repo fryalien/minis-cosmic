@@ -22,3 +22,4 @@ Just Perfection
 $aur yaru-icon-theme
 $aut ttf-ubuntu-font-family
 $aur gtk-engine-murrine
+
